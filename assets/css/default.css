@@ -1,0 +1,476 @@
+html,body{
+    width: 100%;
+    height: 100%;
+  
+  }
+  body{
+      color: #181818;
+  }
+  
+  .brca-clear{
+      clear: both;
+  }
+  main{
+    width: 100%;
+      font-family: 'Barlow Condensed', sans-serif;
+      overflow-x: hidden;
+  }
+  h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    color: #3398cc;
+    }
+    @media only screen and (max-width: 940px) {
+      h1{
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+      }
+    h2{
+      font-size: 30px;
+      font-weight: 500;
+      margin: 10px 0px 10px 0px;
+      color: #3398cc;
+      }
+      @media only screen and (max-width: 940px) {
+        h2{
+          padding-left: 20px;
+          padding-right: 20px;
+          }
+        }
+    h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0px 10px 0px;
+    }
+    @media only screen and (max-width: 940px) {
+      h3{
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+      }
+    
+    .pre-sup{
+      text-indent: -10px;
+        margin-left: -4px;
+    }
+    sup{
+      vertical-align: super;
+        font-size: 9px;
+        line-height: 0px;
+        margin-left: 0px;
+    }
+    em{
+      font-style: italic;
+    }
+    p{
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 17px;
+      hanging-punctuation: first;
+      display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    @media only screen and (max-width: 940px) {
+      p{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    strong{
+      font-weight: bold;
+    }
+    ul{
+      font-size: 12px;
+      margin: 30px 10px 30px 10px;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+    ul li{
+      margin-bottom: 10px;
+    }
+    @media only screen and (max-width: 640px) {
+      ul li{
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    }
+    section{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+    main > section{
+      overflow: hidden;
+    
+    }
+    a[name]{
+      display: block;
+      position: relative;
+      padding-top: 337px;
+      float: left;
+      width: 100%;
+      clear: both;
+      margin-top: -337px;
+    }
+    @media only screen and (max-width: 640px) {
+      a[name]{
+        margin-top: -180px;
+        padding-top: 180px;
+        
+      }
+    }
+    @media only screen and (max-width: 414px) {
+      a[name]{
+        margin-top: -180px;
+        padding-top: 180px;
+      }
+    }
+    @media only screen and (max-width: 375px) {
+      a[name]{
+        margin-top: -180px;
+        padding-top: 180px;
+        
+      }
+    }
+    @media only screen and (max-width: 320px) {
+      a[name]{
+        margin-top: -180px;
+        padding-top: 180px;
+      }
+    }
+    label{
+      display: inline-block;
+    }
+
+    .nav-container{
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    z-index: 999999;
+    background-color: #000;
+    }
+
+    nav{
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0px 25px 0px;
+    }
+
+    nav ul{
+    text-align: right;
+    margin: 0px;
+    }
+    nav span li{
+    width: 20px;
+    height: 20px;
+    }
+
+    nav ul li{
+    margin-left: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    }
+
+    /* .ldad-social-cont{
+      
+    } */
+    
+    #ldad-logo-company-name-text{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 129px;
+    position: absolute;
+    bottom: 55px;
+    text-align: right;
+    border-right: 1px solid;
+    padding-right: 25px;
+    }
+    #ldad-logo-company-name-text span{
+      font-size: 17px;
+      margin-left: -154px;
+      position: absolute;
+    }
+    #ldad-logo-company-name-text::before{
+    content: url(../images/ldad-logo.png);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: -309px;
+    top: -267px;
+    transform: scale(.16);
+    }
+
+    .ldad-social-cont ul{
+    text-align: right;
+    margin: 0px;
+    }
+    .ldad-social-cont ul li{
+    margin-left: 20px;
+    border: 1px solid #181818;
+    padding: 5px;
+    display: inline-block;
+    }
+
+    .ldad-hero-banner-wrapper{
+    width: 100%;
+    height: auto;
+    margin-top: 157px;
+    border: 1px solid #000;
+    }
+    .ldad-hero-banner-cont{
+    width: 100%;
+    max-width: 940px;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .ldad-content-wrapper{
+    width: 100%;
+    height: auto;
+    }
+    .ldad-content-mission-statement{
+        width: 100%;
+    max-width: 940px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    /* CONTENT SECTION */
+
+    .ldad-blue-content-wrapper{
+      background-color: #3398cc;
+      width: 100%;
+      height: auto;
+      box-shadow: 0px 0px 5px 6px #ccc;
+    }
+    .ldad-content-cont{
+      width: 100%;
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .ldad-content-blue-cont{
+      width: 100%;
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px 0px 20px 0px;
+      color: #fff;
+      text-align: center;
+    }
+    .ldad-blue-content-wrapper h2{
+      color: #fff;
+    }
+    .ldad-important-downloads-wrapper{
+      width: 100%;
+      max-width: 940px;
+      padding: 20px 0px 20px 0px;
+      height: auto;
+      text-align: center;
+    }
+
+    .ldad-academy-brochure-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-brochure-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-right: 40px;
+      border: 2px solid #181818;
+    }
+    .ldad-academy-brochure-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-keeping-in-step-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-keeping-in-step-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-right: 40px;
+      border: 2px solid #181818;
+    }
+    .ldad-keeping-in-step-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-class-schedule-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-class-schedule-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      border: 2px solid #181818;  
+    }
+    .ldad-class-schedule-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+
+    /* REGISTRATION SECTION */
+    .ui-accordion .ui-accordion-header{
+      display: block;
+      cursor: pointer;
+      position: relative;
+      margin: 10px 0 0 0;
+      font-size: 100%;
+    }
+    .ui-state-default {
+      border: 1px solid #c5c5c5;
+      background: #ededed;
+      font-weight: normal;
+      color: #181818;
+    }
+    .ui-state-active {
+      border: 1px solid #3398cc;
+      background: #3398cc;
+      font-weight: normal;
+      color: #ffffff;
+    }
+
+    #accordion h3{
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .ldad-single-classes-select{
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .ldad-single-classes-select-wrapper p{
+      font-size: 15px;
+      font-family: inherit;
+    }
+
+    .ldad-single-classes-select label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    }
+
+    .ldad-preferred-day-time{
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .ldad-preferred-day-time-wrapper p{
+      font-size: 15px;
+      font-family: inherit;
+    }
+
+    .ldad-preferred-day-time label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    }
+    .form-actions{
+      margin-top: 20px;
+    }
+
+
+
+    .ldad-student-information-wrapper p{
+      font-size: 15px;
+      font-family: inherit;
+    }
+    .ldad-student-information-wrapper input{
+      margin-bottom: 10px;
+    }
+
+    .ldad-student-information-wrapper label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    }
+
+    .ldad-parent-information-wrapper p{
+      font-size: 15px;
+      font-family: inherit;
+    }
+    .ldad-parent-information-wrapper input{
+      margin-bottom: 10px;
+    }
+
+    .ldad-parent-information-wrapper label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    }
+
+
+    /* FOOTER SECTION */
+
+    footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 50px 0px 50px 0px;
+    }
+    footer .footer-nav{
+    width: 100%;
+    width: 100%;
+    max-width: 940px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    }
+    .footer-nav ul{
+      text-align: center;
+    }
+    .footer-nav ul li{
+    margin-left: 20px;
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    }
+    .footer-nav p{
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+
+
+    
