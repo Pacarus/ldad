@@ -225,21 +225,6 @@ html,body{
     display: inline-block;
     }
 
-    .ldad-hero-banner-wrapper{
-    width: 100%;
-    height: auto;
-    margin-top: 157px;
-    border: 1px solid #000;
-    }
-    .ldad-hero-banner-cont{
-    width: 100%;
-    max-width: 940px;
-    text-align: center;
-    padding: 150px 0px 150px 0px;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    }
 
     .ldad-content-wrapper{
     width: 100%;

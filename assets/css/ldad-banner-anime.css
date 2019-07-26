@@ -1,0 +1,174 @@
+.ldad-hero-banner-wrapper{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 157px;
+    border: 1px solid #000;
+    }
+     
+    #ldad-anime-main{
+        display: block;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 940px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1;
+        }
+    
+    #ldad-hero-banner-copy1{
+        overflow:hidden;
+        width: 940px;
+        height: 300px;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+		position: absolute;
+        display: block;
+        background-image: url(../images/anime-images/why-do-we-dance-image.png);
+        background-repeat: no-repeat;
+        background-size: 940px 300px;
+        transform: scale(0);
+        visibility: hidden;
+} 
+#ldad-hero-banner-image1{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    display: block;
+    background-image: url(../images/anime-images/ldad-hero-banner-image1.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-question-overflow-cont{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 0px;
+}
+#ldad-hero-banner-competition{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px -200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-competition.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-competition-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-competition-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-discipline{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px -200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-discipline.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-discipline-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-discipline-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-spirit{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px -200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-spirit.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-spirit-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-spirit-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-friendship{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px -200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-friendship.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-friendship-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 200px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-friendship-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-all-these-things{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-all-these-things.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
