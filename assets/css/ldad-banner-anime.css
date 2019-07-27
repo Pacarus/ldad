@@ -172,3 +172,118 @@
     background-size: 940px 300px;
     visibility: hidden;
 }
+
+#ldad-hero-banner-at-ldad{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-at-ldad.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    transform: scale(0);
+    visibility: hidden;
+}
+#ldad-hero-banner-at-ldad-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    top: -300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-at-ldad-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-we-believe{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-we-believe.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    transform: scale(0);
+    visibility: hidden;
+}
+#ldad-hero-banner-at-we-believe{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    top: -300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-we-believe-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-humans-dance{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-humans-dance.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-because{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    left: -50px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-because.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-dance-is-human{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    top: 50px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-dance-is-human.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+
+#ldad-hero-banner-join-us-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-join-us-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}

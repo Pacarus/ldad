@@ -71,8 +71,53 @@ function step7(){
 
   TweenMax.to('#ldad-hero-banner-all-these-things', .75, {autoAlpha:1, delay: 1})
 
-
+  TweenMax.to('#ldad-anime-main' , 5, {onComplete:step8});
 }
+
+function step8(){
+
+  TweenMax.to('#ldad-hero-banner-all-these-things', .75, {autoAlpha:0})
+  TweenMax.to('#ldad-hero-banner-at-ldad', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut})
+  TweenMax.to('#ldad-hero-banner-at-ldad-image', .75, {autoAlpha:1, y: "300px",  delay: 1.5})
+  TweenMax.to('#ldad-hero-banner-we-believe', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut,  delay: 2.3})
+
+  TweenMax.to('#ldad-anime-main' , 5, {onComplete:step9});
+}
+function step9(){
+
+  TweenMax.to('#ldad-hero-banner-at-ldad', .75, {autoAlpha:0})
+  TweenMax.to('#ldad-hero-banner-at-ldad-image', .75, {autoAlpha:0})
+  TweenMax.to('#ldad-hero-banner-we-believe', .75, {autoAlpha:0})
+
+  TweenMax.to('#ldad-hero-banner-humans-dance', .75, {autoAlpha:1})
+
+  TweenMax.to('#ldad-anime-main' , 3, {onComplete:step10});
+}
+
+function step10(){
+
+  TweenMax.to('#ldad-hero-banner-humans-dance', .75, {autoAlpha:0})
+  TweenMax.to('#ldad-hero-banner-because', .75, {autoAlpha:1, x: "50px"})
+
+  TweenMax.to('#ldad-anime-main' , 3, {onComplete:step11});
+}
+
+function step11(){
+
+  TweenMax.to('#ldad-hero-banner-because', .75, {autoAlpha:0, y: "-50px"})
+  TweenMax.to('#ldad-hero-banner-dance-is-human', .75, {autoAlpha:1, y: "-50px"})
+
+  TweenMax.to('#ldad-anime-main' , 3, {onComplete:step12});
+  
+}
+
+function step12(){
+
+  TweenMax.to('#ldad-hero-banner-join-us-image', .75, {autoAlpha:1})
+  TweenMax.to('#ldad-hero-banner-dance-is-human', .75, {autoAlpha:0})
+  
+}
+
 
 
 
