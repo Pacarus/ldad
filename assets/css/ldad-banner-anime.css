@@ -287,3 +287,81 @@
     background-size: 940px 300px;
     visibility: hidden;
 }
+
+#ldad-hero-banner-register-image{
+    overflow:hidden;
+    width: 940px;
+    height: 300px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-register-image.png);
+    background-repeat: no-repeat;
+    background-size: 940px 300px;
+    visibility: hidden;
+}
+#ldad-hero-banner-green-check1{
+    overflow:hidden;
+    width: 42px;
+    height: 41px;
+    top: 25px;
+    left: 192px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-green-check1.png);
+    background-repeat: no-repeat;
+    background-size: 42px 41px;
+    transform: scale(0);
+    visibility: hidden;
+}
+#ldad-hero-banner-green-check2{
+    overflow:hidden;
+    width: 42px;
+    height: 41px;
+    top: 90px;
+    left: 192px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-green-check2.png);
+    background-repeat: no-repeat;
+    background-size: 42px 41px;
+    transform: scale(0);
+    visibility: hidden;
+}
+#ldad-hero-banner-green-check3{
+    overflow:hidden;
+    width: 42px;
+    height: 41px;
+    top: 153px;
+    left: 192px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-green-check3.png);
+    background-repeat: no-repeat;
+    background-size: 42px 41px;
+    transform: scale(0);
+    visibility: hidden;
+}
+#ldad-hero-banner-green-check4{
+    overflow:hidden;
+    width: 42px;
+    height: 41px;
+    top: 220px;
+    left: 192px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    display: block;
+    position: absolute;
+    background-image: url(../images/anime-images/ldad-hero-banner-green-check4.png);
+    background-repeat: no-repeat;
+    background-size: 42px 41px;
+    transform: scale(0);
+    visibility: hidden;
+}
