@@ -3,13 +3,15 @@ html,body{
     height: 100%;
   
   }
+  .ldad-clear{
+    clear: both;
+    margin-bottom: 40px;
+}
   body{
       color: #181818;
   }
   
-  .brca-clear{
-      clear: both;
-  }
+  
   main{
     width: 100%;
       font-family: 'Barlow Condensed', sans-serif;
@@ -21,18 +23,26 @@ html,body{
     margin: 10px 0px 10px 0px;
     color: #3398cc;
     }
+    @media only screen and (max-width: 375px) {
+      h1{
+        font-size: 22px;
+      }
+    }
     @media only screen and (max-width: 940px) {
       h1{
         padding-left: 20px;
         padding-right: 20px;
         }
       }
+
+    
     h2{
       font-size: 30px;
       font-weight: 500;
       margin: 10px 0px 10px 0px;
       color: #3398cc;
       }
+      
       @media only screen and (max-width: 940px) {
         h2{
           padding-left: 20px;
@@ -44,10 +54,16 @@ html,body{
     font-weight: 400;
     margin: 10px 0px 10px 0px;
     }
+    
     @media only screen and (max-width: 940px) {
       h3{
         padding-left: 20px;
         padding-right: 20px;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+        h3{
+          font-size: 20px;
         }
       }
     
@@ -66,7 +82,7 @@ html,body{
     }
     p{
       font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif; 
       margin-top: 10px;
       margin-bottom: 10px;
       line-height: 17px;
@@ -77,6 +93,14 @@ html,body{
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+  li a{
+      color: #fff;
+      text-decoration: none;
+    }
+    li a:hover{
+      color: #fff;
+      text-decoration: underline;
+    } 
     @media only screen and (max-width: 940px) {
       p{
         padding-left: 20px;
@@ -140,12 +164,12 @@ html,body{
     }
     @media only screen and (max-width: 320px) {
       a[name]{
-        margin-top: -180px;
-        padding-top: 180px;
+        margin-top: -220px;
+        padding-top: 220px;
       }
     }
     label{
-      display: inline-block;
+      /* display: inline-block; */
     }
 
     .nav-container{
@@ -159,6 +183,11 @@ html,body{
     z-index: 999999;
     background-color: #000;
     }
+    @media only screen and (max-width: 980px) {
+      .nav-container{
+        display: none;
+      }
+    }
 
     nav{
     width: 100%;
@@ -167,10 +196,23 @@ html,body{
     margin-right: auto;
     padding: 25px 0px 25px 0px;
     }
+    @media only screen and (max-width: 939px) {
+      nav{
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+      }
+    }
 
     nav ul{
     text-align: right;
     margin: 0px;
+    }
+    @media only screen and (max-width: 375px) {
+      nav ul{
+    text-align: center;
+    margin: 10px;
+      }
     }
     nav span li{
     width: 20px;
@@ -184,10 +226,42 @@ html,body{
     color: #fff;
     font-size: 15px;
     }
+    @media only screen and (max-width: 375px) {
+      nav ul li{
+    padding: 0px;
+      }
+    }
 
-    /* .ldad-social-cont{
-      
-    } */
+
+    .nav-container-mobile{
+      padding: 20px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 12px;
+      z-index: 999999;
+      background-color: #000;
+      display: none;
+      }
+      @media only screen and (max-width: 980px) {
+        .nav-container-mobile{
+          display: block;
+        }
+      }
+      @media only screen and (max-width: 939px) {
+    .ldad-social-cont{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    } 
+  }
+  @media only screen and (max-width: 939px) {
+  .ldad-main-nav-cont{
+    display: inline-block;
+  }
+}
     
     #ldad-logo-company-name-text{
     color: #fff;
@@ -199,10 +273,33 @@ html,body{
     border-right: 1px solid;
     padding-right: 25px;
     }
+    @media only screen and (max-width: 939px) {
+      #ldad-logo-company-name-text{
+        text-align: center;
+        padding-right: 0px;
+        font-size: 18px;
+        position: relative;
+        bottom: 0px;
+        border: none;
+        margin-left: 0px;
+      }
+    }
     #ldad-logo-company-name-text span{
       font-size: 17px;
       margin-left: -154px;
       position: absolute;
+    }
+    nav img{
+      width: 100%;
+      max-width: 145px;
+      margin-left: auto;
+      margin-right: auto;
+      display: none;
+    }
+    @media only screen and (max-width: 939px) {
+      nav img{
+        display: block;
+      }
     }
     #ldad-logo-company-name-text::before{
     content: url(../images/ldad-logo.png);
@@ -214,15 +311,33 @@ html,body{
     transform: scale(.16);
     }
 
+    @media only screen and (max-width: 939px) {
+      #ldad-logo-company-name-text::before{
+        display: none;
+      }
+    }
+
     .ldad-social-cont ul{
     text-align: right;
     margin: 0px;
     }
+    @media only screen and (max-width: 375px) {
+      .ldad-social-cont ul{
+        text-align: center;
+        margin: 0px;
+      }
+    }
     .ldad-social-cont ul li{
     margin-left: 20px;
-    border: 1px solid #181818;
+    /* border: 1px solid #181818; */
     padding: 5px;
     display: inline-block;
+    }
+    @media only screen and (max-width: 375px) {
+      .ldad-social-cont ul li{
+       padding: 0px;
+       margin-left: 0px;
+      }
     }
 
 
@@ -235,10 +350,80 @@ html,body{
     max-width: 940px;
     text-align: left;
     padding: 0px;
-    margin: 0px;
     margin-left: auto;
     margin-right: auto;
     }
+
+    @media only screen and (min-width: 376px) and (max-width: 939px) {
+      .ldad-content-mission-statement{
+          margin-top: 200px;
+      }
+  }
+  @media only screen and (max-width: 375px) {
+    .ldad-content-mission-statement{
+        margin-top: 200px;
+    }
+}
+@media only screen and (max-width: 940px){
+.ldad-persistance-quote-wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+.ldad-persistance-quote-wrapper{
+  margin-top: 40px;
+}
+
+.ldad-persistance-quote-wrapper img{
+  float: left;
+  width: 100%;
+  max-width: 40%;
+  box-shadow: 4px 3px 5px 2px #999;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 768px){
+  .ldad-persistance-quote-wrapper img{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+.ldad-persistance-quote-wrapper p{
+  font-size: 40px;
+  line-height: 40px;
+  color: #3398cc;
+  margin-top: 52px;
+  float: right;
+  width: 90%;
+  max-width: 53%;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+@media only screen and (max-width: 768px){
+  .ldad-persistance-quote-wrapper p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: none;
+  }
+}
+.ldad-persistance-quote-wrapper span{
+  font-size: 15px;
+}
+.ldad-join-the-ldad-copy{
+  font-size: 30px;
+  line-height: 30px;
+  color: #3398cc;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.ldad-join-the-ldad-copy sup{
+  font-size: 15px;
+}
 
     /* CONTENT SECTION */
 
@@ -256,19 +441,24 @@ html,body{
     }
     .ldad-content-blue-cont{
       width: 100%;
-      max-width: 940px;
+      max-width: 1150px;
       margin-left: auto;
       margin-right: auto;
       padding: 20px 0px 20px 0px;
       color: #fff;
       text-align: center;
     }
+    @media only screen and (max-width: 1163px){
+      .ldad-content-blue-cont{
+        max-width: 762px;
+      }
+    }
     .ldad-blue-content-wrapper h2{
       color: #fff;
     }
     .ldad-important-downloads-wrapper{
       width: 100%;
-      max-width: 940px;
+      /* max-width: 940px; */
       padding: 20px 0px 20px 0px;
       height: auto;
       text-align: center;
@@ -285,6 +475,12 @@ html,body{
       color: #181818;
       margin-right: 40px;
       border: 2px solid #181818;
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-academy-brochure-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
     }
     .ldad-academy-brochure-cont p{
       margin-top: 292px;
@@ -305,6 +501,12 @@ html,body{
       margin-right: 40px;
       border: 2px solid #181818;
     }
+    @media only screen and (max-width: 1163px){
+      .ldad-keeping-in-step-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
     .ldad-keeping-in-step-cont p{
       margin-top: 292px;
       font-size: 22px;
@@ -323,6 +525,12 @@ html,body{
       color: #181818;
       border: 2px solid #181818;  
     }
+    @media only screen and (max-width: 1163px){
+      .ldad-class-schedule-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
     .ldad-class-schedule-cont p{
       margin-top: 292px;
       font-size: 22px;
@@ -330,8 +538,69 @@ html,body{
       font-family: inherit;
     }
 
+    .ldad-class-options-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-class-options-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-right: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-class-options-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-class-options-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-class-options-list-wrapper{
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+    }
+
+    .ldad-class-options-list{
+      width: 100%;
+      height: auto;
+      padding: 5px 5px 5px 5px;
+      max-width: 235px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 2px solid #181818;  
+    }
+    .ldad-class-options-list p{
+      color: #181818;
+      font-size: 17px;
+    }
+
+   .ldad-class-options-list a{
+     text-decoration: none;
+    }
+    .ldad-class-options-list a:hover{
+      text-decoration: underline;
+     }
+    .ldad-classes-wrapper{
+      display: none;
+    }
+  
+
 
     /* REGISTRATION SECTION */
+    .ui-accordion-content{
+      padding: 20px;
+    }
     .ui-accordion .ui-accordion-header{
       display: block;
       cursor: pointer;
@@ -401,6 +670,8 @@ html,body{
     }
     .ldad-student-information-wrapper input{
       margin-bottom: 10px;
+      width: 100%;
+      height: 25px;
     }
 
     .ldad-student-information-wrapper label{
@@ -415,6 +686,8 @@ html,body{
     }
     .ldad-parent-information-wrapper input{
       margin-bottom: 10px;
+      width: 100%;
+      height: 25px;
     }
 
     .ldad-parent-information-wrapper label{
@@ -456,6 +729,55 @@ html,body{
     .footer-nav p{
       font-family: 'Barlow Condensed', sans-serif;
     }
+
+    div#pay-now-button{
+      width: 50px;
+      /* background-color: #FF9900; */
+      padding: 0px 0; 
+      }
+      div#pay-now-button:hover{
+      cursor: pointer;
+      }
+      div#pay-now-button * {
+      /* background-color: #FFAA00; */
+      }
+      div#pay-now-button form{
+      margin:0;
+      padding:0;
+      text-align:center;
+      }
+      div#pay-now-button div.cpwrap {
+      width: 90%;
+      border:0;
+      margin:0 auto;
+      padding: 0px;
+      /* background-color: #FF9900; */
+      }
+      div#pay-now-button button{
+      border:0;
+      margin:0;
+      padding: 0px 0px 0px 0px;
+      /* background-color: #FF9900; */
+      text-align: center;
+      color: #FFFFFF;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+      div#pay-now-button:hover button {
+      text-decoration: underline;
+      }
+      div#pay-now-button button:focus,div#pay-now-button button:visited,div#pay-now-button button:active{
+      border:none;
+      outline: none;
+      }
+      div#pay-now-button button {
+      font-size: 15px;
+      }
+      div#pay-now-button{
+     /*  background-color: #FFAA00; */
+      }
+
+
+
 
 
     

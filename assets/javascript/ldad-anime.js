@@ -21,7 +21,7 @@ function step3()
   TweenMax.to('#ldad-hero-banner-competition', .75, {autoAlpha:1, x: "180px", ease: Back.easeOut})
   TweenMax.to('#ldad-hero-banner-competition-image', .75, {autoAlpha:1, x: "-180px", ease: Back.easeOut})
 
-  TweenMax.to('#ldad-hero-banner-green-check1', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
+  //TweenMax.to('#ldad-hero-banner-green-check1', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
   
   
   
@@ -36,7 +36,7 @@ function step4()
   TweenMax.to('#ldad-hero-banner-competition-image', .75, {autoAlpha:0})
   TweenMax.to('#ldad-hero-banner-friendship-image', .75, {autoAlpha:1, x: "-200px", ease: Back.easeOut})
 
-  TweenMax.to('#ldad-hero-banner-green-check2', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
+  //TweenMax.to('#ldad-hero-banner-green-check2', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
  
   
 
@@ -51,7 +51,7 @@ function step5()
   TweenMax.to('#ldad-hero-banner-discipline-image', .75, {autoAlpha:1, x: "-200px", ease: Back.easeOut})
   //TweenMax.to('#ldad-hero-banner-spirit', .75, {autoAlpha:1, x: "180px", ease: Back.easeOut})
 
-  TweenMax.to('#ldad-hero-banner-green-check3', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
+  //TweenMax.to('#ldad-hero-banner-green-check3', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
   
 
   TweenMax.to('#ldad-anime-main' , 3, {onComplete:step6});
@@ -63,7 +63,7 @@ function step6()
   TweenMax.to('#ldad-hero-banner-discipline-image', .75, {autoAlpha:0})
   TweenMax.to('#ldad-hero-banner-spirit-image', .75, {autoAlpha:1, x: "-200px", ease: Back.easeOut})
 
-  TweenMax.to('#ldad-hero-banner-green-check4', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
+  //TweenMax.to('#ldad-hero-banner-green-check4', .75, {autoAlpha:1, scale: 1, ease: Bounce.easeOut, delay: 1})
   
   
 
@@ -76,7 +76,7 @@ function step7(){
   TweenMax.to('#ldad-hero-banner-friendship', .75, {autoAlpha:0})
   TweenMax.to('#ldad-hero-banner-competition', .75, {autoAlpha:0})
   TweenMax.to('#ldad-hero-banner-spirit-image', .75, {autoAlpha:0})
-  TweenMax.to('#ldad-hero-banner-green-check1,#ldad-hero-banner-green-check2,#ldad-hero-banner-green-check3,#ldad-hero-banner-green-check4', .75, {autoAlpha:0})
+  //TweenMax.to('#ldad-hero-banner-green-check1,#ldad-hero-banner-green-check2,#ldad-hero-banner-green-check3,#ldad-hero-banner-green-check4', .75, {autoAlpha:0})
 
   TweenMax.to('#ldad-hero-banner-all-these-things', .75, {autoAlpha:1, delay: 1})
 

@@ -1,0 +1,9 @@
+body {
+    height: 800px;
+    width: 100vw;
+    overflow: auto;
+}
+#document{
+width: 100%;
+max-width: 800px;
+}
