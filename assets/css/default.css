@@ -270,7 +270,7 @@ html,body{
     position: absolute;
     bottom: 55px;
     text-align: right;
-    border-right: 1px solid;
+    /* border-right: 1px solid; */
     padding-right: 25px;
     }
     @media only screen and (max-width: 939px) {
@@ -538,30 +538,7 @@ html,body{
       font-family: inherit;
     }
 
-    .ldad-class-options-cont{
-      width: 250px;
-      height: 330px;
-      display: inline-block;
-      border-radius: 10px;
-      background-image: url(../images/ldad-class-options-image.png);
-      background-repeat: no-repeat;
-      background-color: #fff;
-      color: #181818;
-      margin-right: 40px;
-      border: 2px solid #181818;  
-    }
-    @media only screen and (max-width: 1163px){
-      .ldad-class-options-cont{
-        margin-right: 0px;
-        margin-bottom: 10px;
-      }
-    }
-    .ldad-class-options-cont p{
-      margin-top: 292px;
-      font-size: 22px;
-      font-weight: 500;
-      font-family: inherit;
-    }
+    
 
     .ldad-class-options-list-wrapper{
       width: 100%;
