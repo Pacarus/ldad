@@ -171,6 +171,25 @@ html,body{
     label{
       /* display: inline-block; */
     }
+    .ldad-thank-you-wrapper{
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+    }
+    .ldad-thank-you-top-bar{
+      width: 800px;
+      height: 156px;
+      background-color: #000;
+      text-align: center;
+    }
+    .thank-you-copy-wrapper{
+      padding: 20px;
+      width: 100%;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
 
     .nav-container{
     padding: 20px;
