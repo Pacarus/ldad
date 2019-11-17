@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="shortcut icon" href="https://www.lindadance.com/assets/images/ldad-logo-PayeezySmall.png" type="image/jpeg">
+  <link rel="shortcut icon" href="https://www.lindadance.com/assets/images/favicon.png" type="image/jpeg">
   <link rel="shortcut icon" href="https://www.lindadance.com/assets/images/favicon.ico" />
   <meta name="title" content="Linda D'Amico's Academy of Dance">
         <meta property="og:title" content="Linda D'Amico's Academy of Dance">
@@ -227,6 +227,7 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
   <div class="ldad-content-cont">
 <a name="registration"></a><h2>Registration</h2>  
 <h3>Please fill out the form sections below to begin your dance journey!</h3>
+<p class="ldad-policy-notice-download-link"><a target="_blank" href="assets/pdf/20192020-policy-registration-agreement.pdf">Download the LDAD<sup>&copy;</sup> Policy Notice</a></p>
 <form method="post" action="/gdform.php">
 <input type="hidden" name="subject" value="LDAD New Student Submission Form" />
 <input type="hidden" name="redirect" value="thankyou.html" />
@@ -237,19 +238,19 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
       <div class="ldad-courses-wrapper">
         <label for="edit-submitted-course">Combo Classes</label>
        <div id="edit-submitted-course" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-submitted-course-prek1--">
-       <input type="checkbox" id="edit-submitted-course-1" name="submitted[course][prek1  ]" value="prek1  " class="form-checkbox">  <label class="option" for="edit-submitted-course-1"> Pre K 1 (2 ½ yr old to 3 year old) – Ballet/Tap/Tumbling </label>
+       <input type="checkbox" id="edit-submitted-course-1" name="course-prek1" value="prek1" class="form-checkbox">  <label class="option" for="edit-submitted-course-1"> Pre K 1 (2 ½ yr old to 3 year old) – Ballet/Tap/Tumbling </label>
       
       </div>
       <div class="form-item form-type-checkbox form-item-submitted-course-prek2--">
-       <input type="checkbox" id="edit-submitted-course-2" name="submitted[course][prek2  ]" value="prek2  " class="form-checkbox">  <label class="option" for="edit-submitted-course-2"> Pre K 2 (3 ½ yr old to 4 year old) – Ballet/Tap/Tumbling </label>
+       <input type="checkbox" id="edit-submitted-course-2" name="course-prek2" value="prek2" class="form-checkbox">  <label class="option" for="edit-submitted-course-2"> Pre K 2 (3 ½ yr old to 4 year old) – Ballet/Tap/Tumbling </label>
       
       </div>
       <div class="form-item form-type-checkbox form-item-submitted-course-kincombo--">
-       <input type="checkbox" id="edit-submitted-course-3" name="submitted[course][kincombo  ]" value="kincombo  " class="form-checkbox">  <label class="option" for="edit-submitted-course-3"> Kinder Combo – Ballet/Tap/Tumbling </label>
+       <input type="checkbox" id="edit-submitted-course-3" name="course-kin-combo" value="kincombo" class="form-checkbox">  <label class="option" for="edit-submitted-course-3"> Kinder Combo – Ballet/Tap/Tumbling </label>
       
       </div>
       <div class="form-item form-type-checkbox form-item-submitted-course-triplet--">
-       <input type="checkbox" id="edit-submitted-course-4" name="submitted[course][triplet  ]" value="triplet  " class="form-checkbox">  <label class="option" for="edit-submitted-course-4"> 1st-2nd grade – triplet/combo (Tap/Ballet, Ballet/Jazz or Tap/Ballet/Jazz) </label>
+       <input type="checkbox" id="edit-submitted-course-4" name="course-triplet" value="triplet" class="form-checkbox">  <label class="option" for="edit-submitted-course-4"> 1st-2nd grade – triplet/combo (Tap/Ballet, Ballet/Jazz or Tap/Ballet/Jazz) </label>
       
       </div>
       </div>
@@ -262,24 +263,24 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
     <div class="ldad-single-classes-select">
       <label for="single-classes">Class Type</label>
       <select multiple="multiple" name="" id="ldad-single-classes-select">
-        <option value="ballet">ballet</option>
-        <option value="Jazz">Jazz</option>
-        <option value="Gymnastics">Gymnastics</option>
-        <option value="Lyrical">Lyrical</option>
-        <option value="Modern">Modern</option>
-        <option value="Hip Hop Funk">Hip Hop Funk</option>
-        <option value="Ballroom">Ballroom</option>
-        <option value="Summer Camp">Summer Camp</option>
-        <option value="Musical Theater">Musical Theater</option>
+        <option name="ballet" value="ballet">ballet</option>
+        <option  name="jazz" value="Jazz">Jazz</option>
+        <option  name="Gymnastics" value="Gymnastics">Gymnastics</option>
+        <option  name="Lyrical" value="Lyrical">Lyrical</option>
+        <option  name="Modern" value="Modern">Modern</option>
+        <option  name="Hip-Hop-Funk" value="Hip Hop Funk">Hip Hop Funk</option>
+        <option  name="Ballroom" value="Ballroom">Ballroom</option>
+        <option  name="Summer-Camp" value="Summer Camp">Summer Camp</option>
+        <option  name="Musical-Theater" value="Musical Theater">Musical Theater</option>
       </select>
     </div>
 
     <div class="ldad-single-classes-select">
         <label for="single-classes">Skill Level</label>
         <select multiple="multiple" name="" id="ldad-single-classes-select">
-          <option value="Beginner">Beginner</option>
-          <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
+          <option  name="Beginner" value="Beginner">Beginner</option>
+          <option  name="Intermediate" value="Intermediate">Intermediate</option>
+          <option  name="Advanced" value="Advanced">Advanced</option>
         </select>
       </div>
   </div>
@@ -289,23 +290,23 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
       <div class="ldad-preferred-day-time">
         <label for="preferred-day-time">Class Type</label>
         <select multiple="multiple" name="" id="ldad-preferred-day-time">
-          <option value="monday">Monday</option>
-          <option value="tuesday">Tuesday</option>
-          <option value="wednesday">Wednesday</option>
-          <option value="thursday">Thursday</option>
-          <option value="friday">Friday</option>
-          <option value="saturday">Saturday</option>
-          <option value="sunday">Sunday</option>
+          <option  name="Monday" value="monday">Monday</option>
+          <option  name="Tuesday" value="tuesday">Tuesday</option>
+          <option  name="Wednesday" value="wednesday">Wednesday</option>
+          <option  name="Thursday" value="thursday">Thursday</option>
+          <option  name="Friday" value="friday">Friday</option>
+          <option  name="Saturday" value="saturday">Saturday</option>
+          <option  name="Sunday" value="sunday">Sunday</option>
         </select>
       </div>
   
       <div class="ldad-preferred-day-time">
           <label for="preferred-day-time">Skill Level</label>
           <select multiple="multiple" name="" id="ldad-preferred-day-time">
-              <option value="am">AM</option>
-              <option value="pm">PM</option>
-              <option value="after3">After 3PM</option>
-              <option value="after5">After 5:30PM</option>
+              <option  name="AM" value="am">AM</option>
+              <option  name="PM" value="pm">PM</option>
+              <option  name="after3" value="after3">After 3PM</option>
+              <option  name="after5" value="after5">After 5:30PM</option>
           </select>
         </div>
     </div>
@@ -331,47 +332,47 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
     <div class="ldad-student-information-wrapper">
         <div class="form-item webform-component webform-component-textfield webform-component--first-name">
             <label for="edit-submitted-first-name">First Name: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-first-name" name="submitted[first_name]" value="" size="60" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-first-name" name="first_name" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--last-name">
             <label for="edit-submitted-last-name">Last Name: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-last-name" name="submitted[last_name]" value="" size="60" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-last-name" name="last_name" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--address">
             <label for="edit-submitted-address">Address: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-address" name="submitted[address]" value="" size="60" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-address" name="address" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--city">
             <label for="edit-submitted-city">City: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-city" name="submitted[city]" value="" size="60" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-city" name="city" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--state">
             <label for="edit-submitted-state">State: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-state" name="submitted[state]" value="" size="60" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-state" name="state" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--zip">
             <label for="edit-submitted-zip">Zip: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-zip" name="submitted[zip]" value="" size="5" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-zip" name="zip" value="" size="5" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--age">
             <label for="edit-submitted-age">Age: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-age" name="submitted[age]" value="" size="5" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-age" name="age" value="" size="5" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--grade">
             <label for="edit-submitted-grade">Grade: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-grade" name="submitted[grade]" value="" size="5" maxlength="128" class="form-text required" required>
+           <input type="text" id="edit-submitted-grade" name="grade" value="" size="5" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--birthday">
             <label for="edit-submitted-birthday">Birthday: </label>
-           <input type="text" id="edit-submitted-birthday" name="submitted[birthday]" value="" size="5" maxlength="128" class="form-text">
+           <input type="text" id="edit-submitted-birthday" name="birthday" value="" size="5" maxlength="128" class="form-text">
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--school">
             <label for="edit-submitted-school">School: </label>
-           <input type="text" id="edit-submitted-school" name="submitted[school]" value="" size="60" maxlength="128" class="form-text">
+           <input type="text" id="edit-submitted-school" name="school" value="" size="60" maxlength="128" class="form-text">
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--cell-phone">
             <label for="edit-submitted-cell-phone">Cell Phone: </label>
-           <input type="text" id="edit-submitted-cell-phone" name="submitted[cell_phone]" value="" size="60" maxlength="128" class="form-text">
+           <input type="text" id="edit-submitted-cell-phone" name="cell_phone" value="" size="60" maxlength="128" class="form-text">
           </div>
       </div>
 
@@ -383,7 +384,7 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--phone">
             <label for="edit-submitted-phone">Phone Number: <span class="form-required" title="This field is required.">*</span></label>
-           <input type="text" id="edit-submitted-phone" name="Phone Number" value="" size="60" maxlength="128" class="form-text required"required>
+           <input type="text" id="edit-submitted-phone" name="Phone Number" value="" size="60" maxlength="128" class="form-text required" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--alt-">
             <label for="edit-submitted-alt-">Alt Number: </label>
@@ -391,20 +392,20 @@ Unde aliquam inventore totam ipsum dicta animi, sit repellendus consequuntur opt
           </div>
           <div class="form-item webform-component webform-component-email webform-component--email">
             <label for="edit-submitted-email">Email: <span class="form-required" title="This field is required.">*</span></label>
-           <input class="email form-text form-email required" type="email" id="edit-submitted-email" name="submitted[email]" size="60" required>
+           <input class="email form-text form-email required" type="email" id="edit-submitted-email" name="email" size="60" required>
           </div>
           <div class="form-item webform-component webform-component-textfield webform-component--requests">
             <label for="edit-submitted-requests">Requests: </label>
-           <input type="text" id="edit-submitted-requests" name="submitted[requests]" value="" size="60" maxlength="128" class="form-text">
+           <input type="text" id="edit-submitted-requests" name="requests" value="" size="60" maxlength="128" class="form-text">
           </div>
           <div class="form-item webform-component webform-component-select webform-component--how-did-you-hear-about-us webform-container-inline">
             <label for="edit-submitted-how-did-you-hear-about-us">How Did You Hear About Us? </label>
-           <select multiple="multiple" name="submitted[how_did_you_hear_about_us][]" id="edit-submitted-how-did-you-hear-about-us" size="4" class="form-select"><option value="yellow">Yellow Pages</option><option value="internet">Internet</option><option value="empl">Employee or Student Referral</option><option value="news">Newspaper ads</option><option value="facebook">Facebook</option><option value="instagram">Instagram</option><option value="word-of-mouth">Word of Mouth</option></select>
+           <select multiple="multiple" name="how_did_you_hear_about_us" id="edit-submitted-how-did-you-hear-about-us" size="4" class="form-select"><option value="yellow">Yellow Pages</option><option value="internet">Internet</option><option value="empl">Employee or Student Referral</option><option value="news">Newspaper ads</option><option value="facebook">Facebook</option><option value="instagram">Instagram</option><option value="word-of-mouth">Word of Mouth</option></select>
           </div>
     </div>
     
 </div>
-<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Let's Dance!"></div>
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="submit-button" value="Let's Dance!"></div>
 </div>
 </form>
 </div>

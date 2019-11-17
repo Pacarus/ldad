@@ -281,6 +281,29 @@ html,body{
     display: inline-block;
   }
 }
+
+.ldad-policy-notice-download-link{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ldad-policy-notice-download-link a{
+  color: #3398cc;
+  font-weight: bold;
+}
+
+.ldad-policy-notice-download-link a::before{
+ content: "";
+ background-image: url(../images/exclamation-point-image.png);
+ background-repeat: no-repeat;
+ background-size: 7px 28px;
+ position: absolute;
+ margin-left: -20px;
+ margin-top: -5px;
+ height: 28px;
+ width: 7px;
+}
     
     #ldad-logo-company-name-text{
     color: #fff;
