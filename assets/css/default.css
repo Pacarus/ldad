@@ -282,6 +282,27 @@ html,body{
   }
 }
 
+.ldad-covid-info-wrapper{
+width: 100%;
+height: auto;
+margin: 40px 0 40px 0;
+text-align: center;
+background: #fffaa9;
+padding: 20px 0 20px 0;
+}
+.ldad-covid-info-content{
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #3398cc;
+}
+.ldad-covid-info-content a{
+  color: #3398cc;
+}
+
 .ldad-policy-notice-download-link{
   padding-left: 20px;
   padding-top: 10px;
@@ -505,6 +526,9 @@ html,body{
       height: auto;
       text-align: center;
     }
+    .ldad-important-downloads-wrapper a{
+      text-decoration: none;
+    }
 
     .ldad-academy-brochure-cont{
       width: 250px;
@@ -580,7 +604,292 @@ html,body{
       font-family: inherit;
     }
 
+    .ldad-fees-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-fees-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-left: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-fees-cont{
+        margin-left: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-fees-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
     
+    .ldad-academy-janine-staff-cont{
+      width: 250px;
+      height: 330px;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-janine-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 2px solid #181818;
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-academy-janine-staff-cont{
+        margin-bottom: 10px;
+      }
+    }
+
+    .ldad-academy-janine-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+      text-decoration: none;
+    }
+
+
+
+    .ldad-academy-taylor-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-taylor-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-right: 40px;
+      border: 2px solid #181818;
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-academy-taylor-staff-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-academy-taylor-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-joy-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-joy-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-right: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-joy-staff-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-joy-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+
+    .ldad-gina-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-gina-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-gina-staff-cont{
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-gina-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+
+    
+    .ldad-meagan-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-meagan-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-left: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-meagan-staff-cont{
+        margin-left: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-meagan-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-stacy-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-stacy-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      /* margin-left: 40px; */
+      margin-right: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-stacy-staff-cont{
+        margin-left: 40px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-stacy-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+    
+    .ldad-summer-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-summer-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-top: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-summer-staff-cont{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+    }
+    .ldad-summer-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-adam-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-adam-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-left: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-adam-staff-cont{
+        margin-left: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-adam-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-sydney-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-sydney-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-left: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-sydney-staff-cont{
+        margin-left: 0px;
+        margin-bottom: 40px;
+      }
+    }
+    .ldad-sydney-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+    .ldad-ginny-staff-cont{
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      border-radius: 10px;
+      background-image: url(../images/ldad-academy-ginny-staff-image.png);
+      background-repeat: no-repeat;
+      background-color: #fff;
+      color: #181818;
+      margin-top: 40px;
+      border: 2px solid #181818;  
+    }
+    @media only screen and (max-width: 1163px){
+      .ldad-ginny-staff-cont{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    .ldad-ginny-staff-cont p{
+      margin-top: 292px;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: inherit;
+    }
+
+        /* END LDAD STAFF CSS */
 
     .ldad-class-options-list-wrapper{
       width: 100%;
@@ -680,8 +989,6 @@ html,body{
     .form-actions{
       margin-top: 20px;
     }
-
-
 
     .ldad-student-information-wrapper p{
       font-size: 15px;
@@ -795,6 +1102,16 @@ html,body{
      /*  background-color: #FFAA00; */
       }
 
+      #edit-class-options-textarea{
+        resize: none;
+        padding: 5px;
+      }
+      #edit-Special-Requests-textarea{
+        padding: 5px;
+        resize: none;
+      }
+
+      
 
 
 
